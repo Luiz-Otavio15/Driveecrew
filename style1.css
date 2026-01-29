@@ -36,7 +36,7 @@ button {
 }
 
 .logo {
-    color: rgb(15, 96, 189);
+    color: rgb(12, 178, 207);
     font-size: 26px;
     font-weight: bold;
     padding-left: 35px;
@@ -50,7 +50,7 @@ button {
 }
 
 .menu a:hover {
-    color: rgb(15, 96, 189);
+    color: rgb(12, 178, 207);
 }
 
 
@@ -127,6 +127,13 @@ button {
     width: 126px;
     animation: piscar 3s infinite;
 }
+
+.hero img {
+    background-color: rgb(12, 178, 207);
+    box-shadow: 0 0 20px #00ffcc;
+    width: 100%;
+}
+
 @keyframes piscar {
     0% { opacity: 1; }
     50% { opacity: 0; }
