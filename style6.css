@@ -131,6 +131,12 @@ button {
     width: 126px;
     animation: piscar 3s infinite;
 }
+
+.hero img {
+    background-color: rgb(12, 178, 207);
+    box-shadow: 0 0 20px #00ffcc;
+    width: 100%;
+}
 @keyframes piscar {
     0% { opacity: 1; }
     50% { opacity: 0; }
