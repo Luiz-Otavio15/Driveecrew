@@ -16,6 +16,12 @@ body {
 }
 
 
+main {
+    min-width: 300px;
+    max-width: 100%;
+    margin: auto;
+}
+
 .header {
     background-color:rgb(17, 17, 17);
     color: #ffffff;
@@ -107,6 +113,10 @@ body {
     color: white;
 }
 
+.hero img {
+    width: 100%;
+}
+
 @media (max-width: 600px) {
     .menu {
         display: flex;
@@ -122,6 +132,8 @@ body {
     .hero h2 {
         font-size: 30px;
     }
+
+   
 }
 
 
