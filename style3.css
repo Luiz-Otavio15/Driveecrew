@@ -79,7 +79,7 @@ body {
 }
 
 .tabela {
-    width: 855px;
+    width: 755px;
     margin: auto;
     border-collapse: collapse;
 }
@@ -106,7 +106,16 @@ body {
     50% { opacity: 0; }
     100% { opacity: 1; }
 }
+a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.5s all;
+}
 
+a:hover {
+    color: rgb(12, 178, 207);
+}
 
 @media (max-width: 600px) {
     .menu {
@@ -123,4 +132,10 @@ body {
     .hero h2 {
         font-size: 30px;
     }
+
+    .tabela {
+    width: 100%;
+    margin: auto;
+    border-collapse: collapse;
+}
 }
