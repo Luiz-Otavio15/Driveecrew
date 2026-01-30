@@ -127,10 +127,11 @@ main {
 }
 
 .foto_final{
-    display: flex;
-    flex-direction: column;
+   background-color: #fff;
+    
+    color: #1e1e1e;
+    padding: 80px 20px;
     text-align: center;
-    align-items: center;
 }
 .foto_final .final {
     width: 400px;
