@@ -64,6 +64,7 @@ body {
 .secao {
     padding: 160px 20px;
     text-align: center;
+    background: rgb(119, 120, 121);
 }
 
 .secao h2 {
@@ -73,10 +74,6 @@ body {
 }
 
 
-
-.tabela-bg {
-    background: rgb(119, 120, 121);
-}
 
 .tabela {
     width: 755px;
