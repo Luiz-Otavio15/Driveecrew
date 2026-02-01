@@ -85,30 +85,26 @@ button {
 
 .carros-grid {
     display: flex;
-    gap: 20px;
+    gap: 25px;
     justify-content: center;
     flex-wrap: wrap; 
 }
 
 .card {
     background-color: rgb(129, 129, 128);
+    height: 325px;
     width: 300px;
-    padding: 15px;
+    padding: 20px;
     border-radius: 12px;
     box-shadow: 0 3px 8px #00000020;
     transition: transform .3s;
 }
 
-.card p {
-    color: white;
-}
-
-.card h3 {
-    color: white;
-}
 .card:hover {
+    height: 100%;
     transform: scale(1.05);
 }
+
 
 .card img {
     width: 100%;
@@ -116,7 +112,13 @@ button {
     margin-bottom: 10px;
 }
 
+.card h3 {
+    color: white;
+}
 
+p {
+    color: white;
+}
 
 
 .footer {
@@ -149,6 +151,20 @@ button {
     0% {box-shadow: 0 0 5px #0ff;}
     50% {box-shadow: 0 0 30px #0ff;}
     100% {box-shadow: 0 0 5px #0ff;}
+}
+
+.descricao p{
+    
+    color: transparent;
+}
+
+.card:hover .descricao p {
+    padding: 15px;
+    transition: 1s;
+    color:  white;
+    font-size: bold;
+    bottom: 0;
+
 }
 @media (max-width: 600px) {
     .menu {

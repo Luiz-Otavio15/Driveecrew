@@ -85,7 +85,7 @@ button {
 
 .carros-grid {
     display: flex;
-    gap: 20px;
+    gap: 25px;
     justify-content: center;
     flex-wrap: wrap; 
 }
@@ -157,7 +157,7 @@ button {
 
 .card:hover .descricao p {
     padding: 15px;
-    transition: 0.4s;
+    transition: 1s;
     color:  white;
     font-size: bold;
     bottom: 0;
