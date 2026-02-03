@@ -360,7 +360,7 @@ const displayData = data => {
 
                 <div class="descricao">
                     <p>
-                        Compacto e carismático, conhecido pelo design diferente e economia, ideal para quem gosta de carros simples e marcantes.
+                        ${e.descricao}
                     </p>
                 </div>
             </div>

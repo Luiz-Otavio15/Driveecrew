@@ -141,6 +141,33 @@ p {
     
 }
 
+.search {
+    align-items: center;
+    display: flex;
+    background-color: #a3a2a2;
+    width: 300px;
+    padding: 5px 10px;
+    margin: 20px auto;
+    border-radius: 20px;
+    border: 2px solid #ccc;
+}
+
+#searchInput {
+    width: 400px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    background-color: #a3a2a2;
+}
+
+.logo {
+    padding: 0;
+    padding-top: 8px;
+    color: white;
+}
+
 @keyframes piscar {
     0% { opacity: 1; }
     50% { opacity: 0; }

@@ -30,7 +30,7 @@ const data = [
     {
     link_foto: "Foto/Carros/Intermediarios/Civic SI.png",
     modelo:'Intermediários',
-    link_tela: "TelaCarroIntermediarios.html",
+    link_tela: "TelaCarroIntermediario.html",
     descricao: "Veiculos que equilibram conforto e performance, perfeitos para quem ja tem experiência. e custo-benefício para o uso diário."
     },
 

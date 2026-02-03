@@ -166,6 +166,33 @@ p {
     bottom: 0;
 
 }
+
+.search {
+    align-items: center;
+    display: flex;
+    background-color: #a3a2a2;
+    width: 300px;
+    padding: 5px 10px;
+    margin: 20px auto;
+    border-radius: 20px;
+    border: 2px solid #ccc;
+}
+
+#searchInput {
+    width: 400px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    background-color: #a3a2a2;
+}
+
+.logo {
+    padding: 0;
+    padding-top: 8px;
+    color: white;
+}
 @media (max-width: 600px) {
     .menu {
         display: flex;
