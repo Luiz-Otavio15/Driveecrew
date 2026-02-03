@@ -15,22 +15,22 @@ const data = [
     
     {
     link_foto: "Foto/Carros/Basico/Gol G3.png",
-    modelo:'Básico',
-    link_tela: "TelaCarrosBasicos.html",
+    modelo:'Basico',
+    link_tela: "TelaCarrosBasico.html",
     descricao: "Modelos simples e eficientes, ideias para quem quer economia e praticidade no dia a dia."
     },
 
     {
     link_foto: "Foto/Carros/Importados/Charger 69.png",
     modelo:'Importados',
-    link_tela: "TelaCarrosImportados.html",
+    link_tela: "TelaCarroImportados.html",
     descricao: "Carros estrangerios que trazem tecnologia, elegancia e desempenho diferenciados."
     },
 
     {
     link_foto: "Foto/Carros/Intermediarios/Civic Si.png",
     modelo:'Intermediários',
-    link_tela: "TelaCarrosIntermediarios.html",
+    link_tela: "TelaCarroIntermediarios.html",
     descricao: "Veiculos que equilibram conforto e performance, perfeitos para quem ja tem experiência. e custo-benefício para o uso diário."
     },
 
@@ -43,7 +43,7 @@ const data = [
     {
     link_foto: "Foto/Carros/Muscle/Shelby.png",
     modelo:'Muscle',
-    link_tela: "TelaCarrosMuscle.html",
+    link_tela: "TelaCarroMuscle.html",
     descricao: "Carros potentes com Visual marcante, feitos para quem busca força e tradição."
     },
 
@@ -100,7 +100,7 @@ const data = [
     {
     link_foto: "Foto/Carros/Suv Premium/Cayenne.png",
     modelo:'Suv Premium',
-    link_tela: "TelaCarrosSuv.html",
+    link_tela: "TelaCarrosSuvPremium.html",
     descricao: "SUVs com performance elevada, luxo e recursos tecnológicos de ponta."
     },
 
