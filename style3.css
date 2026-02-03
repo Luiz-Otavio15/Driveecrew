@@ -114,6 +114,22 @@ a:hover {
     color: rgb(12, 178, 207);
 }
 
+.search {
+    display: flex;
+    justify-content: center;
+    background: rgb(119, 120, 121);
+    padding-top: 20px;
+
+}
+#searchInput {
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+
 @media (max-width: 600px) {
     .menu {
         display: flex;
