@@ -60,32 +60,23 @@ body {
     margin-top: 10px;
 }
 
+ table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        
+        th {
+            background-color: #f2f2f2;
+        }
 
-.secao {
-    padding: 160px 20px;
-    text-align: center;
-    background: rgb(119, 120, 121);
-}
 
-.secao h2 {
-    font-size: 28px;
-    margin-bottom: 30px;
-    color: white;
-}
-
-
-
-.tabela {
-    width: 755px;
-    margin: auto;
-    border-collapse: collapse;
-}
-
-.tabela th, .tabela td {
-    padding: 10px;
-    border: 1px solid #000;
-    background: white;
-}
 .footer {
     background: #1e1e1e;
     color: white;
@@ -114,21 +105,34 @@ a:hover {
     color: rgb(12, 178, 207);
 }
 
+
+
 .search {
+    align-items: center;
     display: flex;
-    justify-content: center;
-    background: rgb(119, 120, 121);
-    padding-top: 20px;
-
-}
-#searchInput {
-    padding: 10px;
+    background-color: #a3a2a2;
     width: 300px;
-    border: none;
-    border-radius: 5px 0 0 5px;
-    outline: none;
+    padding: 5px 10px;
+    margin: 20px auto;
+    border-radius: 20px;
+    border: 2px solid #ccc;
 }
 
+#searchInput {
+    width: 400px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    background-color: #a3a2a2;
+}
+
+.logo {
+    padding: 0;
+    padding-top: 8px;
+    color: white;
+}
 
 @media (max-width: 600px) {
     .menu {
