@@ -29,6 +29,7 @@ body {
     color: rgb(12, 178, 207);
     font-size: 26px;
     font-weight: bold;
+    padding-left: 35px;
 }
 
 .menu a {
@@ -132,6 +133,12 @@ a:hover {
     padding: 0;
     padding-top: 8px;
     color: white;
+}
+
+.filtralevel {
+    border: none;
+    border-radius: 20px;
+    width: 200px;
 }
 
 @media (max-width: 600px) {

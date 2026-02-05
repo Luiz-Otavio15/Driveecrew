@@ -302,3 +302,19 @@ searchInput.addEventListener("keyup", (e) => {
 window.addEventListener("load", () => {
     displayData(data);
 });
+
+searchInput.addEventListener("keyup", filtrarTabela);
+filterLevel.addEventListener("change", filtrarTabela);
+
+function filtrarTabela() {
+    const termo = searchInput.value.toLowerCase();
+    const level = filterLevel.value;
+    
+    const resultado = data.filter(carro => {
+        const matchTexto = carro.modelo.toLowerCase().includes(termo);
+        const matchLevel = level === "" || carro.level.toString() === level;
+        return matchTexto && matchLevel;
+    });
+    
+    displayData(resultado);
+}
