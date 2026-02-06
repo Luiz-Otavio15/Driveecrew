@@ -9,7 +9,7 @@ const data = [
     {
         link_foto: "Foto/Carros/Vans/Kombi.png",
         modelo: "Kombi",
-        valor: "200.000",
+        valor: "100.000",
         level: "3",
         descricao: "Ícone nacional, versátil e histórico."
     },
