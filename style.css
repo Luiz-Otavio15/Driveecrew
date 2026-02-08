@@ -78,6 +78,7 @@ main {
 .secao h2 {
     font-size: 28px;
     margin-bottom: 30px;
+    padding-top: 25px;
 }
 
 .Foto_inicial {
@@ -137,6 +138,40 @@ main {
     width: 400px;
     background: transparent;
 
+}
+
+.Dono, .Gerente {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+
+.card {
+    background-color: rgb(20, 20, 20);
+    height: 320px;
+    width: 300px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px 8px #00000020;
+    transition: transform .3s;
+}
+
+
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 3px 8px #ffffff80;
+}
+
+.card h3 {
+    color: white;
+    margin-top: 15px;
+}
+.card p {
+    color: white;
 }
 @media (max-width: 600px) {
     .menu {

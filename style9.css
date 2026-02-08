@@ -35,12 +35,14 @@ button {
     height: 600px;
 }
 
-.logo {
+.header h1{
     color: rgb(12, 178, 207);
     font-size: 26px;
     font-weight: bold;
     padding-left: 35px;
 }
+
+
 
 .menu a {
     color: white;
