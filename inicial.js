@@ -6,7 +6,7 @@ const data1 = [
     },
     {
         link_foto: "Foto/Foto_gerentes/Danilo.jpg",
-        modelo: 'Danilo',
+        modelo: 'Danilo Romanov',
         descricao: "Dono da DriveCrew"
     }
 ];
