@@ -20,6 +20,14 @@ const data = [
         level: "4",
         descricao: "Hatch extremo, potência absurda e tração integral."
     },
+
+    {
+        link_foto: "Foto/Carros/Premium/Civic 2025.png",
+        modelo: "Civic 2025",
+        valor: "330.000",
+        level: "4",
+        descricao: "Um japones com uma potência absurda."
+    },
     {
         link_foto: "Foto/Carros/Premium/Golf MK8 GTI.png",
         modelo: "Golf MK8",

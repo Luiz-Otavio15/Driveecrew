@@ -22,6 +22,13 @@ const data = [
     descricao: "Hatch confortável, com bom acabamento e visual moderno para sua época.",
     level: "0"
     },
+    {
+    link_foto: "Foto/Carros/Basico/Tiida.png",
+    modelo:"Tiida",
+    valor: "23.000",
+    descricao: "Hatch confortável, com bom acabamento e visual moderno para sua época.",
+    level: "0"
+    },
 
     {
     link_foto: "Foto/Carros/Basico/Corsa geração nova.png",

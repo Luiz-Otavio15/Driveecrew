@@ -14,6 +14,13 @@ const data = [
         descricao: "Clássica e confiável para o dia a dia."
     },
     {
+        link_foto: "Foto/Carros/Picape pequena/Saveiro G4.png",
+        modelo: "Saveiro G4 Surf",
+        valor: "34.000",
+        level: "1",
+        descricao: "Compacta Otimo para o trabalho."
+    },
+    {
         link_foto: "Foto/Carros/Picape pequena/Saveiro G3.png",
         modelo: "Saveiro G3 1.8",
         valor: "39.000",

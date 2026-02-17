@@ -112,6 +112,13 @@ const data = [
         descricao: "Esportivo confiável, alto giro e ótima performance."
     },
     {
+        link_foto: "Foto/Carros/Intermediarios/Fiat 500.png",
+        modelo: "500 Abarth",
+        valor: "110.000",
+        level: "2",
+        descricao: "Esportivo Compacto."
+    },
+    {
         link_foto: "Foto/Carros/Intermediarios/Civic 1.5.png",
         modelo: "Civic 1.5 Turbo",
         valor: "120.000",
