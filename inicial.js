@@ -1,4 +1,33 @@
+const data1 = [
+    {
+        link_foto: "Foto/Foto_gerentes/Eros.webp",
+        modelo: 'Eros Harma',
+        descricao: "Dono da DriveCrew"
+    },
+    {
+        link_foto: "Foto/Foto_gerentes/Nescau1.jpg",
+        modelo: 'Nescau Krueger',
+        descricao: "Dono da DriveCrew"
+    }
+];
 
+const data = [
+    {
+        link_foto: "Foto/Foto_gerentes/Rasteira1.jpg",
+        modelo: 'Otavio Rasteira',
+        descricao: "Gerente da DriveCrew"
+    },
+    {
+        link_foto: "Foto/Foto_gerentes/Lucas.png",
+        modelo: "Lucas O'Conner",
+        descricao: "Gerente da DriveCrew"
+    },
+    {
+        link_foto: "Foto/Foto_gerentes/Zecigano.png",
+        modelo: 'Zé Cigano',
+        descricao: "Gerente da DriveCrew"
+    }
+];
 
 const dono = document.querySelector('.Dono');
 const gerente = document.querySelector('.Gerente');
