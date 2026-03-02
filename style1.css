@@ -24,7 +24,7 @@ body {
     align-items: center;
 }
 
-button {
+.card button {
     background-color: rgb(129, 129, 128);
     border-radius: 20px;
     border: none;
@@ -55,7 +55,7 @@ button {
 
 
 .hero {
-    background-color: #555555;
+    background-color: #ffffff;
     
     color: white;
     padding: 80px 20px;
@@ -78,7 +78,7 @@ button {
 }
 
 .secao h2 {
-    
+    color: black;
     font-size: 28px;
     margin-bottom: 30px;
 }
@@ -92,32 +92,32 @@ button {
 }
 
 .card {
-    background-color: rgb(129, 129, 128);
+    background-color: rgb(221, 221, 221);
     height: 280px;
     width: 300px;
     padding: 20px;
     border-radius: 12px;
-    box-shadow: 0 3px 8px #00000020;
-    transition: transform .3s;
+    border: 2px solid rgb(189, 189, 189);
+    
 }
 
-.card:hover {
-    height: 100%;
-    transform: scale(1.05);
-}
 
 
 .card img {
+    background-color: rgb(221, 221, 221);
     width: 100%;
     border-radius: 10px;
     margin-bottom: 10px;
 }
 
 .card h3 {
-    color: white;
+    background-color: rgb(221, 221, 221);
+    color: rgb(14, 14, 14);
 }
 
-
+.card button {
+    background-color: rgb(221, 221, 221);
+}
 
 .footer {
     background: #1e1e1e;
@@ -151,19 +151,7 @@ button {
     100% {box-shadow: 0 0 5px #0ff;}
 }
 
-.descricao p{
-    
-    color: transparent;
-}
 
-.card:hover .descricao p {
-    padding: 15px;
-    transition: 1s;
-    color:  white;
-    font-size: bold;
-    bottom: 0;
-
-}
 
 .search {
     align-items: center;
@@ -172,6 +160,7 @@ button {
     width: 300px;
     padding: 5px 10px;
     margin: 20px auto;
+    margin-top: 100px;
     border-radius: 20px;
     border: 2px solid #ccc;
 }

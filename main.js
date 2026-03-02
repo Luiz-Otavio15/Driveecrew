@@ -1,123 +1,105 @@
 const data = [
     {
-    link_foto: "Foto/Carros/Anti_Elétricos/Dolphin_disel.png",
+    link_foto: "Foto/Foto_modelo/Seal_disel-removebg-preview.png",
     modelo:'Anti Elétricos',
-    link_tela: "TelaCarrosEletricos.html",
-    descricao: "Tradição, motor e a verdadeira sensação de dirigir."
+    link_tela: "TelaCarrosEletricos.html"
     },
 
     {
-    link_foto: "Foto/Carros/Antigos/Corsa Wind.png",
+    link_foto: "Foto/Foto_modelo/Omega-removebg-preview.png",
     modelo:'Antigos',
-    link_tela: "TelaCarrosAntigos.html",
-    descricao: "Clássicos que marcaram época, valorizando pelo design retrô e pela história que carregam."
+    link_tela: "TelaCarrosAntigos.html"
     },
     
     {
-    link_foto: "Foto/Carros/Basico/Gol G3.png",
+    link_foto: "Foto/Foto_modelo/New_Fiesta-removebg-preview.png",
     modelo:'Basico',
-    link_tela: "TelaCarrosBasico.html",
-    descricao: "Modelos simples e eficientes, ideias para quem quer economia e praticidade no dia a dia."
+    link_tela: "TelaCarrosBasico.html"
     },
 
     {
-    link_foto: "Foto/Carros/Importados/Charger 69.png",
+    link_foto: "Foto/Foto_modelo/350z-removebg-preview.png",
     modelo:'Importados',
-    link_tela: "TelaCarroImportados.html",
-    descricao: "Carros estrangerios que trazem tecnologia, elegancia e desempenho diferenciados."
+    link_tela: "TelaCarroImportados.html"
     },
 
     {
-    link_foto: "Foto/Carros/Intermediarios/Civic SI.png",
+    link_foto: "Foto/Foto_modelo/jetta_GLI-removebg-preview.png",
     modelo:'Intermediários',
-    link_tela: "TelaCarroIntermediario.html",
-    descricao: "Veiculos que equilibram conforto e performance, perfeitos para quem ja tem experiência. e custo-benefício para o uso diário."
+    link_tela: "TelaCarroIntermediario.html"
     },
 
     {
-    link_foto: "Foto/Carros/Moto/Hornet 2014.png",
+    link_foto: "Foto/Foto_modelo/Ninja_ZX-6R-removebg-preview.png",
     modelo:'Motos',
-    link_tela: "TelaMoto.html",
-    descricao: "Duas rodas para liberdade total, com opções que vão do urbano ao esportivo."
+    link_tela: "TelaMoto.html"
     },
     {
-    link_foto: "Foto/Carros/Muscle/Shelby.png",
+    link_foto: "Foto/Foto_modelo/Camaro_ZL1-removebg-preview.png",
     modelo:'Muscle',
-    link_tela: "TelaCarroMuscle.html",
-    descricao: "Carros potentes com Visual marcante, feitos para quem busca força e tradição."
+    link_tela: "TelaCarroMuscle.html"
     },
 
     {
-    link_foto: "Foto/Carros/Perua/Karavan Ricardinho.png",
+    link_foto: "Foto/Foto_modelo/Caravan_SS-removebg-preview.png",
     modelo:'Peruas',
-    link_tela: "TelaCarroPerua.html",
-    descricao: "Modelo versáteis com amplo espaço interno, ideais para famílias e carga sem abrir mão de estilo."
+    link_tela: "TelaCarroPerua.html"
     },
 
     {
-    link_foto: "Foto/Carros/Picape Grande/F450.png",
+    link_foto: "Foto/Foto_modelo/3500-removebg-preview.png",
     modelo:'Picapes Grandes',
-    link_tela: "TelaCarrosPicapeGrande.html",
-    descricao: "Caminhonetes robustas com capacidade de carga e presença dominante nas estradas."
+    link_tela: "TelaCarrosPicapeGrande.html"
     },
 
     {
-    link_foto: "Foto/Carros/Picape Intermediaria/Maverick.png",
+    link_foto: "Foto/Foto_modelo/S10-removebg-preview.png",
     modelo:'Picapes Intermediárias',
-    link_tela: "TelaCarrosPicapeIntermediaria.html",
-    descricao: "Versão mais versátil das picapes, unindo força e agilidade para uso urbano e trabalho."
+    link_tela: "TelaCarrosPicapeIntermediaria.html"
     },
 
     {
-    link_foto: "Foto/Carros/Picape Medias/F150 Raptor.png",
+    link_foto: "Foto/Foto_modelo/Hilux-removebg-preview.png",
     modelo:'Picapes Médias',
-    link_tela: "TelaCarrosPicapeMedia.html",
-    descricao: "Modelo equilibrado entre tamanho, força e conforto para diversas necessidades."
+    link_tela: "TelaCarrosPicapeMedia.html"
     },
 
     {
-    link_foto: "Foto/Carros/Picape pequena/Saveiro Sunset.png",
+    link_foto: "Foto/Foto_modelo/Saveiro_G7-removebg-preview.png",
     modelo:'Picapes pequenas',
-    link_tela: "TelaCarrosPicapePequena.html",
-    descricao: "Compactas e práticas, perfeitas para quem quer utilidade sem exageros."
+    link_tela: "TelaCarrosPicapePequena.html"
     },
 
     {
-    link_foto: "Foto/Carros/Premium/M2 F90 Competion.png",
+    link_foto: "Foto/Foto_modelo/TT_-RS-removebg-preview.png",
     modelo:'Premium',
-    link_tela: "TelaCarrosPremium.html",
-    descricao: "Carros com acabmento superior, tecnologia e conforto além do básico."
+    link_tela: "TelaCarrosPremium.html"
     },
 
 
     {
-    link_foto: "Foto/Carros/Suv/Trail-blazer.png",
+    link_foto: "Foto/Foto_modelo/Bronco-removebg-preview.png",
     modelo:'Suv',
-    link_tela: "TelaCarrosSuv.html",
-    descricao: "Versões tradicionais de utilitarios esportivos, combinando espaço e versatilidade."
+    link_tela: "TelaCarrosSuv.html"
     },
 
     {
-    link_foto: "Foto/Carros/Suv Premium/Cayenne.png",
+    link_foto: "Foto/Foto_modelo/Defender-removebg-preview.png",
     modelo:'Suv Premium',
-    link_tela: "TelaCarrosSuvPremium.html",
-    descricao: "SUVs com performance elevada, luxo e recursos tecnológicos de ponta."
+    link_tela: "TelaCarrosSuvPremium.html"
     },
 
     {
-    link_foto: "Foto/Carros/Super/Agera RS.png",
+    link_foto: "Foto/Foto_modelo/488_Pista-removebg-preview.png",
     modelo:'Super',
-    link_tela: "TelaCarrosSuper.html",
-    descricao: "Carros de alta performance, potência e emoção, perfeitos para quem busca o máximo."
+    link_tela: "TelaCarrosSuper.html"
     },
 
     {
-    link_foto: "Foto/Carros/Vans/Sprinter.png",
+    link_foto: "Foto/Foto_modelo/Sprinter-removebg-preview.png",
     modelo:'Vans',
-    link_tela: "TelaCarrosVans.html",
-    descricao: "Espaço, conforto e versatilidade para transporte de pessoas ou carga."
+    link_tela: "TelaCarrosVans.html"
     },
-
 
 
 
@@ -137,10 +119,6 @@ const displayData = data => {
                     <img src="${e.link_foto}" alt="${e.modelo}">
                     <h3>${e.modelo}</h3>
                 </button>
-                
-                 <div class="descricao">
-                    <p>${e.descricao}</p>
-                </div>
           
             </form>
         `
