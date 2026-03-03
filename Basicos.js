@@ -167,13 +167,7 @@ const displayData = data => {
                 <h3>${e.modelo}</h3>
                 <p>Valor: ${e.valor}</p>
                 <p>Level: ${e.level}</p>
-
-
-                <div class="descricao">
-                    <p>
-                        ${e.descricao}
-                    </p>
-                </div>
+                
             </div>
             
         `
