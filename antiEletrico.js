@@ -1,12 +1,12 @@
 const data = [
     {
-    link_foto: "Foto/Foto_modelo/Anti-Eletricos/Dolphin_disel-removebg-preview.png",
+    link_foto: "Foto/Carros/Anti_Elétricos/Dolphin_disel.png",
     modelo:"Dolphin Diesel",
     valor: "100.000",
     level: "2"},
 
     {
-    link_foto: "Foto/Foto_modelo/Anti-Eletricos/Seal_disel-removebg-preview.png",
+    link_foto: "Foto/Carros/Anti_Elétricos/Seal_disel.png",
     modelo:"Seal B58",
     valor: "250.000",
     level: "3"},

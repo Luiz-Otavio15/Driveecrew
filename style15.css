@@ -83,6 +83,37 @@ button {
 }
 
 
+.titulo {
+    
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+
+.card1 {
+    background-color: rgb(255, 255, 255);
+    height: 280px;
+    width: 300px;
+    padding: 20px;
+    border-radius: 12px;
+    
+    text-align: center;
+}
+
+.card1 h4 {
+    color: black;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.card1 img {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
 .carros-grid {
     display: flex;
     gap: 20px;
@@ -91,35 +122,37 @@ button {
 }
 
 .card {
-    background-color: rgb(129, 129, 128);
-    height: 325px;
+    background-color: rgb(221, 221, 221);
+    height: 314px;
     width: 300px;
-    padding: 15px;
+    padding: 20px;
     border-radius: 12px;
-    box-shadow: 0 3px 8px #00000020;
-    transition: transform .3s;
+    border: 2px solid rgb(189, 189, 189);
+    
 }
 
-.card p {
-    color: white;
-}
-
-.card h3 {
-    color: white;
-}
-.card:hover {
-    height: 100%;
-    transform: scale(1.05);
-}
 
 
 .card img {
+    background-color: rgb(221, 221, 221);
     width: 100%;
     border-radius: 10px;
     margin-bottom: 10px;
 }
 
+.card h3{
+    background-color: rgb(221, 221, 221);
+    color: rgb(14, 14, 14);
+}
 
+.card button {
+    background-color: rgb(221, 221, 221);
+}
+
+.card p{
+    background-color: rgb(221, 221, 221);
+    color: rgb(14, 14, 14);
+}
 
 
 .footer {
@@ -136,10 +169,9 @@ button {
 }
 
 .hero img {
+    background-color: rgb(12, 178, 207);
+    box-shadow: 0 0 20px #00ffcc;
     width: 100%;
-    background: #111;
-    animation: luzes_imagem 3s infinite;
-    
 }
 
 @keyframes piscar {
@@ -154,21 +186,6 @@ button {
     100% {box-shadow: 0 0 5px #0ff;}
 }
 
-
-.descricao p{
-    
-    color: transparent;
-}
-
-.card:hover .descricao p {
-    padding: 15px;
-    transition: 0.4s;
-    color:  white;
-    font-size: bold;
-    bottom: 0;
-
-}
-
 .search {
     align-items: center;
     display: flex;
@@ -176,6 +193,7 @@ button {
     width: 300px;
     padding: 5px 10px;
     margin: 20px auto;
+    margin-top: 100px;
     border-radius: 20px;
     border: 2px solid #ccc;
 }

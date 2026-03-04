@@ -157,11 +157,6 @@ const displayData = data => {
                 <p>Level: ${e.level}</p>
 
 
-                <div class="descricao">
-                    <p>
-                        ${e.descricao}
-                    </p>
-                </div>
             </div>
             
         `
